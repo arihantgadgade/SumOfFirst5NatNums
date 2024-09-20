@@ -1,0 +1,1378 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 14.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     55384,       1370]
+NotebookOptionsPosition[     51679,       1296]
+NotebookOutlinePosition[     52077,       1312]
+CellTagsIndexPosition[     52034,       1309]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{"{", 
+   RowBox[{"Red", ",", 
+    RowBox[{"Rectangle", "[", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", "0"}], "}"}], "]"}], ",", "Blue", ",", 
+    RowBox[{"Rectangle", "[", 
+     RowBox[{"{", 
+      RowBox[{"0.5", ",", "0.5"}], "}"}], "]"}]}], "}"}], "]"}]], "Input",
+ CellChangeTimes->{{3.9358491688872337`*^9, 
+  3.935849208097275*^9}},ExpressionUUID->"ed0edec6-eb3a-43d0-908d-\
+0deb7aa51c72"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"EdgeForm", "[", "Thick", "]"}], ",", "LightBlue", ",", 
+    RowBox[{"Rectangle", "[", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", "0"}], "}"}], "]"}]}], "}"}], "]"}]], "Input",
+ CellChangeTimes->{{3.9358492353801813`*^9, 3.935849273022409*^9}},
+ CellLabel->"In[15]:=",ExpressionUUID->"c0629a95-ba1f-4fec-912b-fc6dc9588341"],
+
+Cell[BoxData[
+ GraphicsBox[
+  {RGBColor[0.87, 0.94, 1], EdgeForm[Thickness[Large]], 
+   RectangleBox[{0, 0}]}]], "Output",
+ CellChangeTimes->{{3.9358492418526897`*^9, 3.935849273780293*^9}},
+ CellLabel->"Out[15]=",ExpressionUUID->"41b2a643-5c5d-4685-8690-beaa02030dc2"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"EdgeForm", "[", "Thick", "]"}], ",", "LightBlue", ",", 
+    RowBox[{"Rectangle", "[", 
+     RowBox[{"{", 
+      RowBox[{"0", ",", "0"}], "}"}], "]"}], ",", 
+    RowBox[{"Rectangle", "[", 
+     RowBox[{"{", 
+      RowBox[{"1", ",", "0"}], "}"}], "]"}]}], "}"}], "]"}]], "Input",
+ CellChangeTimes->{{3.93584930723636*^9, 3.935849311189591*^9}, {
+  3.93584934243469*^9, 3.9358493428656*^9}},
+ CellLabel->"In[17]:=",ExpressionUUID->"23d1e5b7-2917-4c7e-99f8-92b885557a72"],
+
+Cell[BoxData[
+ GraphicsBox[
+  {RGBColor[0.87, 0.94, 1], EdgeForm[Thickness[Large]], RectangleBox[{0, 0}], 
+   RectangleBox[{1, 0}]}]], "Output",
+ CellChangeTimes->{3.935849311680179*^9, 3.9358493432393627`*^9},
+ CellLabel->"Out[17]=",ExpressionUUID->"1f362eee-608f-4f6a-9f5f-a1ee9b8a25b4"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Table", "[", 
+  RowBox[{"i", ",", 
+   RowBox[{"{", 
+    RowBox[{"i", ",", "5", ",", "1", ",", 
+     RowBox[{"-", "1"}]}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.9358496167268677`*^9, 3.935849645387704*^9}},
+ CellLabel->"In[26]:=",ExpressionUUID->"8bc52cfb-c330-46a6-ac38-259dd579df89"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"5", ",", "4", ",", "3", ",", "2", ",", "1"}], "}"}]], "Output",
+ CellChangeTimes->{{3.935849627706249*^9, 3.935849645673032*^9}},
+ CellLabel->"Out[26]=",ExpressionUUID->"b85d397f-3a28-4c1b-b869-2cebe59c9c96"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{"Flatten", "[", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"EdgeForm", "[", "Thick", "]"}], ",", "LightBlue", ",", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Rectangle", "[", 
+        RowBox[{"{", 
+         RowBox[{"i", ",", "0"}], "}"}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"i", ",", "0", ",", "4"}], "}"}]}], "]"}]}], "}"}], "]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.935849680965455*^9, 3.935849681161428*^9}},
+ CellLabel->"In[27]:=",ExpressionUUID->"4d29b441-e116-4e31-bd84-84891df9f2cc"],
+
+Cell[BoxData[
+ GraphicsBox[
+  {RGBColor[0.87, 0.94, 1], EdgeForm[Thickness[Large]], RectangleBox[{0, 0}], 
+   RectangleBox[{1, 0}], RectangleBox[{2, 0}], RectangleBox[{3, 0}], 
+   RectangleBox[{4, 0}]}]], "Output",
+ CellChangeTimes->{3.935849683806052*^9},
+ CellLabel->"Out[27]=",ExpressionUUID->"eba293c9-6bc7-441b-9375-bd05d63ae532"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{"Flatten", "[", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"EdgeForm", "[", "Thick", "]"}], ",", "LightBlue", ",", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Rectangle", "[", 
+        RowBox[{"{", 
+         RowBox[{"i", ",", "j"}], "}"}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"j", ",", "4", ",", "0", ",", 
+         RowBox[{"-", "1"}]}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"i", ",", "0", ",", "5"}], "}"}]}], "]"}]}], "}"}], "]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.935851580562051*^9, 3.9358515871023006`*^9}},
+ CellLabel->"In[56]:=",ExpressionUUID->"a0267c8f-5bc6-4bfe-879c-affa80f7b0f3"],
+
+Cell[BoxData[
+ GraphicsBox[
+  {RGBColor[0.87, 0.94, 1], EdgeForm[Thickness[Large]], RectangleBox[{0, 4}], 
+   RectangleBox[{1, 4}], RectangleBox[{2, 4}], RectangleBox[{3, 4}], 
+   RectangleBox[{4, 4}], RectangleBox[{5, 4}], RectangleBox[{0, 3}], 
+   RectangleBox[{1, 3}], RectangleBox[{2, 3}], RectangleBox[{3, 3}], 
+   RectangleBox[{4, 3}], RectangleBox[{5, 3}], RectangleBox[{0, 2}], 
+   RectangleBox[{1, 2}], RectangleBox[{2, 2}], RectangleBox[{3, 2}], 
+   RectangleBox[{4, 2}], RectangleBox[{5, 2}], RectangleBox[{0, 1}], 
+   RectangleBox[{1, 1}], RectangleBox[{2, 1}], RectangleBox[{3, 1}], 
+   RectangleBox[{4, 1}], RectangleBox[{5, 1}], RectangleBox[{0, 0}], 
+   RectangleBox[{1, 0}], RectangleBox[{2, 0}], RectangleBox[{3, 0}], 
+   RectangleBox[{4, 0}], RectangleBox[{5, 0}]}]], "Output",
+ CellChangeTimes->{{3.935851581376812*^9, 3.935851587349779*^9}},
+ CellLabel->"Out[56]=",ExpressionUUID->"44b8f910-b94a-444d-9073-0f04a0461a98"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{"Flatten", "[", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"EdgeForm", "[", "Thick", "]"}], ",", "LightBlue", ",", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Rectangle", "[", 
+        RowBox[{"{", 
+         RowBox[{"i", ",", "j"}], "}"}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"j", ",", "4", ",", "0", ",", 
+         RowBox[{"-", "1"}]}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"i", ",", "0", ",", 
+         RowBox[{"4", "-", "j"}]}], "}"}]}], "]"}]}], "}"}], "]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.935849729296328*^9, 3.9358498034406023`*^9}, {
+  3.9358499897937317`*^9, 3.935849990125893*^9}, {3.93585002692222*^9, 
+  3.935850030896454*^9}},
+ CellLabel->"In[36]:=",ExpressionUUID->"cdd0e256-3ec0-4b8c-ab7b-9343defd00ac"],
+
+Cell[BoxData[
+ GraphicsBox[
+  {RGBColor[0.87, 0.94, 1], EdgeForm[Thickness[Large]], RectangleBox[{0, 4}], 
+   RectangleBox[{0, 3}], RectangleBox[{1, 3}], RectangleBox[{0, 2}], 
+   RectangleBox[{1, 2}], RectangleBox[{2, 2}], RectangleBox[{0, 1}], 
+   RectangleBox[{1, 1}], RectangleBox[{2, 1}], RectangleBox[{3, 1}], 
+   RectangleBox[{0, 0}], RectangleBox[{1, 0}], RectangleBox[{2, 0}], 
+   RectangleBox[{3, 0}], RectangleBox[{4, 0}]}]], "Output",
+ CellChangeTimes->{
+  3.93584970541295*^9, {3.935849752555312*^9, 3.9358498037570467`*^9}, 
+   3.935849990920726*^9, 3.935850031256824*^9},
+ CellLabel->"Out[36]=",ExpressionUUID->"7df70601-4e6a-4df3-8e5c-5a4c6a75b379"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"Table", "[", 
+   RowBox[{
+    RowBox[{"Rectangle", "[", 
+     RowBox[{"{", 
+      RowBox[{"i", ",", "j"}], "}"}], "]"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"j", ",", "4", ",", "0", ",", 
+      RowBox[{"-", "1"}]}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"i", ",", "0", ",", 
+      RowBox[{"4", "-", "j"}]}], "}"}]}], "]"}], "//", "Grid"}]], "Input",
+ CellChangeTimes->{{3.935850068373887*^9, 3.935850069657558*^9}},
+ CellLabel->"In[38]:=",ExpressionUUID->"3b3b6348-c167-4538-94f1-fdfba95a263e"],
+
+Cell[BoxData[
+ TagBox[GridBox[{
+    {
+     RowBox[{"Rectangle", "[", 
+      RowBox[{"{", 
+       RowBox[{"0", ",", "4"}], "}"}], "]"}], "", "", "", ""},
+    {
+     RowBox[{"Rectangle", "[", 
+      RowBox[{"{", 
+       RowBox[{"0", ",", "3"}], "}"}], "]"}], 
+     RowBox[{"Rectangle", "[", 
+      RowBox[{"{", 
+       RowBox[{"1", ",", "3"}], "}"}], "]"}], "", "", ""},
+    {
+     RowBox[{"Rectangle", "[", 
+      RowBox[{"{", 
+       RowBox[{"0", ",", "2"}], "}"}], "]"}], 
+     RowBox[{"Rectangle", "[", 
+      RowBox[{"{", 
+       RowBox[{"1", ",", "2"}], "}"}], "]"}], 
+     RowBox[{"Rectangle", "[", 
+      RowBox[{"{", 
+       RowBox[{"2", ",", "2"}], "}"}], "]"}], "", ""},
+    {
+     RowBox[{"Rectangle", "[", 
+      RowBox[{"{", 
+       RowBox[{"0", ",", "1"}], "}"}], "]"}], 
+     RowBox[{"Rectangle", "[", 
+      RowBox[{"{", 
+       RowBox[{"1", ",", "1"}], "}"}], "]"}], 
+     RowBox[{"Rectangle", "[", 
+      RowBox[{"{", 
+       RowBox[{"2", ",", "1"}], "}"}], "]"}], 
+     RowBox[{"Rectangle", "[", 
+      RowBox[{"{", 
+       RowBox[{"3", ",", "1"}], "}"}], "]"}], ""},
+    {
+     RowBox[{"Rectangle", "[", 
+      RowBox[{"{", 
+       RowBox[{"0", ",", "0"}], "}"}], "]"}], 
+     RowBox[{"Rectangle", "[", 
+      RowBox[{"{", 
+       RowBox[{"1", ",", "0"}], "}"}], "]"}], 
+     RowBox[{"Rectangle", "[", 
+      RowBox[{"{", 
+       RowBox[{"2", ",", "0"}], "}"}], "]"}], 
+     RowBox[{"Rectangle", "[", 
+      RowBox[{"{", 
+       RowBox[{"3", ",", "0"}], "}"}], "]"}], 
+     RowBox[{"Rectangle", "[", 
+      RowBox[{"{", 
+       RowBox[{"4", ",", "0"}], "}"}], "]"}]}
+   },
+   AutoDelete->False,
+   GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+  "Grid"]], "Output",
+ CellChangeTimes->{{3.935850059954262*^9, 3.935850070129274*^9}},
+ CellLabel->"Out[38]=",ExpressionUUID->"a047567d-f84e-4f03-bbb9-00211660fc46"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{"Flatten", "[", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"EdgeForm", "[", "Thick", "]"}], ",", "LightBlue", ",", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Rectangle", "[", 
+        RowBox[{"{", 
+         RowBox[{"i", ",", "j"}], "}"}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"j", ",", "4", ",", "0", ",", 
+         RowBox[{"-", "1"}]}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"i", ",", "5", ",", 
+         RowBox[{"9", "-", "j"}]}], "}"}]}], "]"}]}], "}"}], "]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.935850351758555*^9, 3.935850353725511*^9}},
+ CellLabel->"In[39]:=",ExpressionUUID->"705db530-0977-42e6-a5fa-519031c27b34"],
+
+Cell[BoxData[
+ GraphicsBox[
+  {RGBColor[0.87, 0.94, 1], EdgeForm[Thickness[Large]], RectangleBox[{5, 4}], 
+   RectangleBox[{5, 3}], RectangleBox[{6, 3}], RectangleBox[{5, 2}], 
+   RectangleBox[{6, 2}], RectangleBox[{7, 2}], RectangleBox[{5, 1}], 
+   RectangleBox[{6, 1}], RectangleBox[{7, 1}], RectangleBox[{8, 1}], 
+   RectangleBox[{5, 0}], RectangleBox[{6, 0}], RectangleBox[{7, 0}], 
+   RectangleBox[{8, 0}], RectangleBox[{9, 0}]}]], "Output",
+ CellChangeTimes->{3.935850354801146*^9},
+ CellLabel->"Out[39]=",ExpressionUUID->"29a8f4f8-77a4-4342-b543-f0af4543a6a6"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{"Flatten", "[", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"EdgeForm", "[", "Thick", "]"}], ",", "LightBlue", ",", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Rectangle", "[", 
+        RowBox[{"{", 
+         RowBox[{"i", ",", "j"}], "}"}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"j", ",", "4", ",", "0", ",", 
+         RowBox[{"-", "1"}]}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"i", ",", "0", ",", 
+         RowBox[{"4", "-", "j"}]}], "}"}]}], "]"}], ",", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Rectangle", "[", 
+        RowBox[{"{", 
+         RowBox[{"i", ",", "j"}], "}"}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"j", ",", "4", ",", "0", ",", 
+         RowBox[{"-", "1"}]}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"i", ",", "5", ",", 
+         RowBox[{"9", "-", "j"}]}], "}"}]}], "]"}]}], "}"}], "]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.935850372241184*^9, 3.935850373306204*^9}},
+ CellLabel->"In[40]:=",ExpressionUUID->"2f713b8a-f310-46b6-9918-47b601907fd2"],
+
+Cell[BoxData[
+ GraphicsBox[
+  {RGBColor[0.87, 0.94, 1], EdgeForm[Thickness[Large]], RectangleBox[{0, 4}], 
+   RectangleBox[{0, 3}], RectangleBox[{1, 3}], RectangleBox[{0, 2}], 
+   RectangleBox[{1, 2}], RectangleBox[{2, 2}], RectangleBox[{0, 1}], 
+   RectangleBox[{1, 1}], RectangleBox[{2, 1}], RectangleBox[{3, 1}], 
+   RectangleBox[{0, 0}], RectangleBox[{1, 0}], RectangleBox[{2, 0}], 
+   RectangleBox[{3, 0}], RectangleBox[{4, 0}], RectangleBox[{5, 4}], 
+   RectangleBox[{5, 3}], RectangleBox[{6, 3}], RectangleBox[{5, 2}], 
+   RectangleBox[{6, 2}], RectangleBox[{7, 2}], RectangleBox[{5, 1}], 
+   RectangleBox[{6, 1}], RectangleBox[{7, 1}], RectangleBox[{8, 1}], 
+   RectangleBox[{5, 0}], RectangleBox[{6, 0}], RectangleBox[{7, 0}], 
+   RectangleBox[{8, 0}], RectangleBox[{9, 0}]}]], "Output",
+ CellChangeTimes->{3.935850373858326*^9},
+ CellLabel->"Out[40]=",ExpressionUUID->"e4306dd7-7164-48b0-bfb1-be465ef03abe"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{"Flatten", "[", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"EdgeForm", "[", "Thick", "]"}], ",", "LightBlue", ",", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Rectangle", "[", 
+        RowBox[{"{", 
+         RowBox[{"i", ",", "j"}], "}"}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"j", ",", "4", ",", "0", ",", 
+         RowBox[{"-", "1"}]}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"i", ",", "0", ",", 
+         RowBox[{"4", "-", "j"}]}], "}"}]}], "]"}], ",", "Red", ",", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Rectangle", "[", 
+        RowBox[{"{", 
+         RowBox[{"i", ",", "j"}], "}"}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"j", ",", "4", ",", "0", ",", 
+         RowBox[{"-", "1"}]}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"i", ",", "5", ",", 
+         RowBox[{"9", "-", "j"}]}], "}"}]}], "]"}]}], "}"}], "]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.935850388261739*^9, 3.9358504004741507`*^9}},
+ CellLabel->"In[42]:=",ExpressionUUID->"fc02c341-c58b-48b3-999c-f3d9880241bc"],
+
+Cell[BoxData[
+ GraphicsBox[
+  {RGBColor[0.87, 0.94, 1], EdgeForm[Thickness[Large]], RectangleBox[{0, 4}], 
+   RectangleBox[{0, 3}], RectangleBox[{1, 3}], RectangleBox[{0, 2}], 
+   RectangleBox[{1, 2}], RectangleBox[{2, 2}], RectangleBox[{0, 1}], 
+   RectangleBox[{1, 1}], RectangleBox[{2, 1}], RectangleBox[{3, 1}], 
+   RectangleBox[{0, 0}], RectangleBox[{1, 0}], RectangleBox[{2, 0}], 
+   RectangleBox[{3, 0}], RectangleBox[{4, 0}], 
+   {RGBColor[1, 0, 0], RectangleBox[{5, 4}], RectangleBox[{5, 3}], 
+    RectangleBox[{6, 3}], RectangleBox[{5, 2}], RectangleBox[{6, 2}], 
+    RectangleBox[{7, 2}], RectangleBox[{5, 1}], RectangleBox[{6, 1}], 
+    RectangleBox[{7, 1}], RectangleBox[{8, 1}], RectangleBox[{5, 0}], 
+    RectangleBox[{6, 0}], RectangleBox[{7, 0}], RectangleBox[{8, 0}], 
+    RectangleBox[{9, 0}]}}]], "Output",
+ CellChangeTimes->{{3.935850392552092*^9, 3.935850400774885*^9}},
+ CellLabel->"Out[42]=",ExpressionUUID->"06eff95d-f85b-4617-a124-6edead92b33e"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{"Flatten", "[", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"EdgeForm", "[", "Thick", "]"}], ",", "Red", ",", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Rectangle", "[", 
+        RowBox[{"{", 
+         RowBox[{"i", ",", "j"}], "}"}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"j", ",", "4", ",", "0", ",", 
+         RowBox[{"-", "1"}]}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"i", ",", 
+         RowBox[{"9", "-", "j"}], ",", "9"}], "}"}]}], "]"}]}], "}"}], "]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.935850836747547*^9, 3.9358508492817917`*^9}},
+ CellLabel->"In[45]:=",ExpressionUUID->"b2f57f1b-ba3c-4f7a-a774-2385408a3265"],
+
+Cell[BoxData[
+ GraphicsBox[
+  {RGBColor[1, 0, 0], EdgeForm[Thickness[Large]], RectangleBox[{5, 4}], 
+   RectangleBox[{6, 4}], RectangleBox[{7, 4}], RectangleBox[{8, 4}], 
+   RectangleBox[{9, 4}], RectangleBox[{6, 3}], RectangleBox[{7, 3}], 
+   RectangleBox[{8, 3}], RectangleBox[{9, 3}], RectangleBox[{7, 2}], 
+   RectangleBox[{8, 2}], RectangleBox[{9, 2}], RectangleBox[{8, 1}], 
+   RectangleBox[{9, 1}], RectangleBox[{9, 0}]}]], "Output",
+ CellChangeTimes->{
+  3.9358507351865463`*^9, {3.9358508417690907`*^9, 3.9358508497294064`*^9}},
+ CellLabel->"Out[45]=",ExpressionUUID->"6411f780-aaaf-4e42-9b75-5ef9fd67c1ac"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{"Flatten", "[", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"EdgeForm", "[", "Thick", "]"}], ",", "LightBlue", ",", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Rectangle", "[", 
+        RowBox[{"{", 
+         RowBox[{"i", ",", "j"}], "}"}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"j", ",", "4", ",", "0", ",", 
+         RowBox[{"-", "1"}]}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"i", ",", "0", ",", 
+         RowBox[{"4", "-", "j"}]}], "}"}]}], "]"}], ",", "Red", ",", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Rectangle", "[", 
+        RowBox[{"{", 
+         RowBox[{"i", ",", "j"}], "}"}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"j", ",", "4", ",", "0", ",", 
+         RowBox[{"-", "1"}]}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"i", ",", 
+         RowBox[{"9", "-", "j"}], ",", "9"}], "}"}]}], "]"}]}], "}"}], "]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.935850981046234*^9, 3.935850987494112*^9}},
+ CellLabel->"In[50]:=",ExpressionUUID->"413c8de7-5fb3-456a-849c-1bb49430d595"],
+
+Cell[BoxData[
+ GraphicsBox[
+  {RGBColor[0.87, 0.94, 1], EdgeForm[Thickness[Large]], RectangleBox[{0, 4}], 
+   RectangleBox[{0, 3}], RectangleBox[{1, 3}], RectangleBox[{0, 2}], 
+   RectangleBox[{1, 2}], RectangleBox[{2, 2}], RectangleBox[{0, 1}], 
+   RectangleBox[{1, 1}], RectangleBox[{2, 1}], RectangleBox[{3, 1}], 
+   RectangleBox[{0, 0}], RectangleBox[{1, 0}], RectangleBox[{2, 0}], 
+   RectangleBox[{3, 0}], RectangleBox[{4, 0}], 
+   {RGBColor[1, 0, 0], RectangleBox[{5, 4}], RectangleBox[{6, 4}], 
+    RectangleBox[{7, 4}], RectangleBox[{8, 4}], RectangleBox[{9, 4}], 
+    RectangleBox[{6, 3}], RectangleBox[{7, 3}], RectangleBox[{8, 3}], 
+    RectangleBox[{9, 3}], RectangleBox[{7, 2}], RectangleBox[{8, 2}], 
+    RectangleBox[{9, 2}], RectangleBox[{8, 1}], RectangleBox[{9, 1}], 
+    RectangleBox[{9, 0}]}}]], "Output",
+ CellChangeTimes->{3.935850988381638*^9},
+ CellLabel->"Out[50]=",ExpressionUUID->"d4e8bace-8b0a-41e7-86c1-aa58fb472d4a"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{"Flatten", "[", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"EdgeForm", "[", "Thick", "]"}], ",", "Red", ",", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Rectangle", "[", 
+        RowBox[{"{", 
+         RowBox[{"i", ",", "j"}], "}"}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"j", ",", "4", ",", "0", ",", 
+         RowBox[{"-", "1"}]}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"i", ",", 
+         RowBox[{"5", "-", "j"}], ",", "5"}], "}"}]}], "]"}]}], "}"}], "]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.935850874083346*^9, 3.935850885732731*^9}},
+ CellLabel->"In[47]:=",ExpressionUUID->"ee91f5b9-866c-49ea-b7e6-60b33b898350"],
+
+Cell[BoxData[
+ GraphicsBox[
+  {RGBColor[1, 0, 0], EdgeForm[Thickness[Large]], RectangleBox[{1, 4}], 
+   RectangleBox[{2, 4}], RectangleBox[{3, 4}], RectangleBox[{4, 4}], 
+   RectangleBox[{5, 4}], RectangleBox[{2, 3}], RectangleBox[{3, 3}], 
+   RectangleBox[{4, 3}], RectangleBox[{5, 3}], RectangleBox[{3, 2}], 
+   RectangleBox[{4, 2}], RectangleBox[{5, 2}], RectangleBox[{4, 1}], 
+   RectangleBox[{5, 1}], RectangleBox[{5, 0}]}]], "Output",
+ CellChangeTimes->{{3.9358508761365023`*^9, 3.9358508861179123`*^9}},
+ CellLabel->"Out[47]=",ExpressionUUID->"8ea79067-a642-412e-aa9c-a7c563e35712"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{"Flatten", "[", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"EdgeForm", "[", "Thick", "]"}], ",", "LightBlue", ",", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Rectangle", "[", 
+        RowBox[{"{", 
+         RowBox[{"i", ",", "j"}], "}"}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"j", ",", "4", ",", "0", ",", 
+         RowBox[{"-", "1"}]}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"i", ",", "0", ",", 
+         RowBox[{"4", "-", "j"}]}], "}"}]}], "]"}], ",", "Red", ",", 
+     RowBox[{"Table", "[", 
+      RowBox[{
+       RowBox[{"Rectangle", "[", 
+        RowBox[{"{", 
+         RowBox[{"i", ",", "j"}], "}"}], "]"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"j", ",", "4", ",", "0", ",", 
+         RowBox[{"-", "1"}]}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"i", ",", 
+         RowBox[{"5", "-", "j"}], ",", "5"}], "}"}]}], "]"}]}], "}"}], "]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.9358509120997887`*^9, 3.935850912423835*^9}, 
+   3.935850947453229*^9},
+ CellLabel->"In[49]:=",ExpressionUUID->"b52e58ea-955b-4d4a-afd0-55590eaffbb3"],
+
+Cell[BoxData[
+ GraphicsBox[
+  {RGBColor[0.87, 0.94, 1], EdgeForm[Thickness[Large]], RectangleBox[{0, 4}], 
+   RectangleBox[{0, 3}], RectangleBox[{1, 3}], RectangleBox[{0, 2}], 
+   RectangleBox[{1, 2}], RectangleBox[{2, 2}], RectangleBox[{0, 1}], 
+   RectangleBox[{1, 1}], RectangleBox[{2, 1}], RectangleBox[{3, 1}], 
+   RectangleBox[{0, 0}], RectangleBox[{1, 0}], RectangleBox[{2, 0}], 
+   RectangleBox[{3, 0}], RectangleBox[{4, 0}], 
+   {RGBColor[1, 0, 0], RectangleBox[{1, 4}], RectangleBox[{2, 4}], 
+    RectangleBox[{3, 4}], RectangleBox[{4, 4}], RectangleBox[{5, 4}], 
+    RectangleBox[{2, 3}], RectangleBox[{3, 3}], RectangleBox[{4, 3}], 
+    RectangleBox[{5, 3}], RectangleBox[{3, 2}], RectangleBox[{4, 2}], 
+    RectangleBox[{5, 2}], RectangleBox[{4, 1}], RectangleBox[{5, 1}], 
+    RectangleBox[{5, 0}]}}]], "Output",
+ CellChangeTimes->{3.935850913553894*^9, 3.93585094848169*^9},
+ CellLabel->"Out[49]=",ExpressionUUID->"f0d1300d-e02b-4e36-bda3-bad3d2564d6f"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ListAnimate", "[", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"Labeled", "[", 
+     RowBox[{
+      RowBox[{"Graphics", "[", 
+       RowBox[{"Flatten", "[", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"EdgeForm", "[", "Thick", "]"}], ",", "LightBlue", ",", 
+          RowBox[{"Table", "[", 
+           RowBox[{
+            RowBox[{"Rectangle", "[", 
+             RowBox[{"{", 
+              RowBox[{"i", ",", "j"}], "}"}], "]"}], ",", 
+            RowBox[{"{", 
+             RowBox[{"j", ",", "4", ",", "0", ",", 
+              RowBox[{"-", "1"}]}], "}"}], ",", 
+            RowBox[{"{", 
+             RowBox[{"i", ",", "0", ",", 
+              RowBox[{"4", "-", "j"}]}], "}"}]}], "]"}]}], "}"}], "]"}], 
+       "]"}], ",", "\"\<1+2+3+4+5\>\""}], "]"}], ",", 
+    RowBox[{"Labeled", "[", 
+     RowBox[{
+      RowBox[{"Graphics", "[", 
+       RowBox[{"Flatten", "[", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"EdgeForm", "[", "Thick", "]"}], ",", "LightBlue", ",", 
+          RowBox[{"Table", "[", 
+           RowBox[{
+            RowBox[{"Rectangle", "[", 
+             RowBox[{"{", 
+              RowBox[{"i", ",", "j"}], "}"}], "]"}], ",", 
+            RowBox[{"{", 
+             RowBox[{"j", ",", "4", ",", "0", ",", 
+              RowBox[{"-", "1"}]}], "}"}], ",", 
+            RowBox[{"{", 
+             RowBox[{"i", ",", "0", ",", 
+              RowBox[{"4", "-", "j"}]}], "}"}]}], "]"}], ",", 
+          RowBox[{"Table", "[", 
+           RowBox[{
+            RowBox[{"Rectangle", "[", 
+             RowBox[{"{", 
+              RowBox[{"i", ",", "j"}], "}"}], "]"}], ",", 
+            RowBox[{"{", 
+             RowBox[{"j", ",", "4", ",", "0", ",", 
+              RowBox[{"-", "1"}]}], "}"}], ",", 
+            RowBox[{"{", 
+             RowBox[{"i", ",", "5", ",", 
+              RowBox[{"9", "-", "j"}]}], "}"}]}], "]"}]}], "}"}], "]"}], 
+       "]"}], ",", "\"\<2*(1+2+3+4+5)\>\""}], "]"}], ",", 
+    RowBox[{"Labeled", "[", 
+     RowBox[{
+      RowBox[{"Graphics", "[", 
+       RowBox[{"Flatten", "[", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"EdgeForm", "[", "Thick", "]"}], ",", "LightBlue", ",", 
+          RowBox[{"Table", "[", 
+           RowBox[{
+            RowBox[{"Rectangle", "[", 
+             RowBox[{"{", 
+              RowBox[{"i", ",", "j"}], "}"}], "]"}], ",", 
+            RowBox[{"{", 
+             RowBox[{"j", ",", "4", ",", "0", ",", 
+              RowBox[{"-", "1"}]}], "}"}], ",", 
+            RowBox[{"{", 
+             RowBox[{"i", ",", "0", ",", 
+              RowBox[{"4", "-", "j"}]}], "}"}]}], "]"}], ",", "Red", ",", 
+          RowBox[{"Table", "[", 
+           RowBox[{
+            RowBox[{"Rectangle", "[", 
+             RowBox[{"{", 
+              RowBox[{"i", ",", "j"}], "}"}], "]"}], ",", 
+            RowBox[{"{", 
+             RowBox[{"j", ",", "4", ",", "0", ",", 
+              RowBox[{"-", "1"}]}], "}"}], ",", 
+            RowBox[{"{", 
+             RowBox[{"i", ",", "5", ",", 
+              RowBox[{"9", "-", "j"}]}], "}"}]}], "]"}]}], "}"}], "]"}], 
+       "]"}], ",", "\"\<2*(1+2+3+4+5)\>\""}], "]"}], ",", 
+    RowBox[{"Labeled", "[", 
+     RowBox[{
+      RowBox[{"Graphics", "[", 
+       RowBox[{"Flatten", "[", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"EdgeForm", "[", "Thick", "]"}], ",", "LightBlue", ",", 
+          RowBox[{"Table", "[", 
+           RowBox[{
+            RowBox[{"Rectangle", "[", 
+             RowBox[{"{", 
+              RowBox[{"i", ",", "j"}], "}"}], "]"}], ",", 
+            RowBox[{"{", 
+             RowBox[{"j", ",", "4", ",", "0", ",", 
+              RowBox[{"-", "1"}]}], "}"}], ",", 
+            RowBox[{"{", 
+             RowBox[{"i", ",", "0", ",", 
+              RowBox[{"4", "-", "j"}]}], "}"}]}], "]"}], ",", "Red", ",", 
+          RowBox[{"Table", "[", 
+           RowBox[{
+            RowBox[{"Rectangle", "[", 
+             RowBox[{"{", 
+              RowBox[{"i", ",", "j"}], "}"}], "]"}], ",", 
+            RowBox[{"{", 
+             RowBox[{"j", ",", "4", ",", "0", ",", 
+              RowBox[{"-", "1"}]}], "}"}], ",", 
+            RowBox[{"{", 
+             RowBox[{"i", ",", 
+              RowBox[{"9", "-", "j"}], ",", "9"}], "}"}]}], "]"}]}], "}"}], 
+        "]"}], "]"}], ",", "\"\<2*(1+2+3+4+5)\>\""}], "]"}], ",", 
+    RowBox[{"Labeled", "[", 
+     RowBox[{
+      RowBox[{"Graphics", "[", 
+       RowBox[{"Flatten", "[", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"EdgeForm", "[", "Thick", "]"}], ",", "LightBlue", ",", 
+          RowBox[{"Table", "[", 
+           RowBox[{
+            RowBox[{"Rectangle", "[", 
+             RowBox[{"{", 
+              RowBox[{"i", ",", "j"}], "}"}], "]"}], ",", 
+            RowBox[{"{", 
+             RowBox[{"j", ",", "4", ",", "0", ",", 
+              RowBox[{"-", "1"}]}], "}"}], ",", 
+            RowBox[{"{", 
+             RowBox[{"i", ",", "0", ",", 
+              RowBox[{"4", "-", "j"}]}], "}"}]}], "]"}], ",", "Red", ",", 
+          RowBox[{"Table", "[", 
+           RowBox[{
+            RowBox[{"Rectangle", "[", 
+             RowBox[{"{", 
+              RowBox[{"i", ",", "j"}], "}"}], "]"}], ",", 
+            RowBox[{"{", 
+             RowBox[{"j", ",", "4", ",", "0", ",", 
+              RowBox[{"-", "1"}]}], "}"}], ",", 
+            RowBox[{"{", 
+             RowBox[{"i", ",", 
+              RowBox[{"5", "-", "j"}], ",", "5"}], "}"}]}], "]"}]}], "}"}], 
+        "]"}], "]"}], ",", "\"\<5*(5+1)\>\""}], "]"}], ",", 
+    RowBox[{"Labeled", "[", 
+     RowBox[{
+      RowBox[{"Graphics", "[", 
+       RowBox[{"Flatten", "[", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"EdgeForm", "[", "Thick", "]"}], ",", "LightBlue", ",", 
+          RowBox[{"Table", "[", 
+           RowBox[{
+            RowBox[{"Rectangle", "[", 
+             RowBox[{"{", 
+              RowBox[{"i", ",", "j"}], "}"}], "]"}], ",", 
+            RowBox[{"{", 
+             RowBox[{"j", ",", "4", ",", "0", ",", 
+              RowBox[{"-", "1"}]}], "}"}], ",", 
+            RowBox[{"{", 
+             RowBox[{"i", ",", "0", ",", "5"}], "}"}]}], "]"}]}], "}"}], 
+        "]"}], "]"}], ",", "\"\<2*(1+2+3+4+5)=5*(5+1)\>\""}], "]"}], ",", 
+    RowBox[{"Labeled", "[", 
+     RowBox[{
+      RowBox[{"Graphics", "[", 
+       RowBox[{"Flatten", "[", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"EdgeForm", "[", "Thick", "]"}], ",", "LightBlue", ",", 
+          RowBox[{"Table", "[", 
+           RowBox[{
+            RowBox[{"Rectangle", "[", 
+             RowBox[{"{", 
+              RowBox[{"i", ",", "j"}], "}"}], "]"}], ",", 
+            RowBox[{"{", 
+             RowBox[{"j", ",", "4", ",", "0", ",", 
+              RowBox[{"-", "1"}]}], "}"}], ",", 
+            RowBox[{"{", 
+             RowBox[{"i", ",", "0", ",", 
+              RowBox[{"4", "-", "j"}]}], "}"}]}], "]"}]}], "}"}], "]"}], 
+       "]"}], ",", "\"\<1+2+3+4+5=5*(5+1)/2\>\""}], "]"}], ",", 
+    RowBox[{"Labeled", "[", 
+     RowBox[{
+      RowBox[{"Graphics", "[", 
+       RowBox[{"Flatten", "[", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"EdgeForm", "[", "Thick", "]"}], ",", "LightBlue", ",", 
+          RowBox[{"Table", "[", 
+           RowBox[{
+            RowBox[{"Rectangle", "[", 
+             RowBox[{"{", 
+              RowBox[{"i", ",", "j"}], "}"}], "]"}], ",", 
+            RowBox[{"{", 
+             RowBox[{"j", ",", "4", ",", "0", ",", 
+              RowBox[{"-", "1"}]}], "}"}], ",", 
+            RowBox[{"{", 
+             RowBox[{"i", ",", "0", ",", 
+              RowBox[{"4", "-", "j"}]}], "}"}]}], "]"}]}], "}"}], "]"}], 
+       "]"}], ",", "\"\<1+2+3+4+5=5*(5+1)/2=15\>\""}], "]"}]}], "}"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.935851014142157*^9, 3.935851098706888*^9}, {
+  3.935851364388854*^9, 3.935851421311433*^9}, {3.93585145966535*^9, 
+  3.935851637876683*^9}, {3.9358516926979017`*^9, 3.9358517241423798`*^9}, {
+  3.93585178712995*^9, 3.935851799092454*^9}},
+ CellLabel->"In[59]:=",ExpressionUUID->"a6a01807-7754-408e-a154-f8e0369f0e3d"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`i29$$ = 3, Typeset`show$$ = True, 
+    Typeset`bookmarkList$$ = {
+    "\"min\"" :> {$CellContext`i29$$ = 1}, 
+     "\"max\"" :> {$CellContext`i29$$ = 8}}, Typeset`bookmarkMode$$ = "Menu", 
+    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"untitled\"", Typeset`specs$$ = {{{
+       Hold[$CellContext`i29$$], 1, ""}, 1, 8, 1, ControlType -> Animator}}, 
+    Typeset`size$$ = Automatic, Typeset`update$$ = 0, Typeset`initDone$$, 
+    Typeset`skipInitDone$$ = True}, 
+    PaneBox[
+     PanelBox[GridBox[{
+        {
+         ItemBox[
+          ItemBox[
+           TagBox[
+            StyleBox[GridBox[{
+               {"\<\"\"\>", 
+                AnimatorBox[Dynamic[$CellContext`i29$$], {1, 8, 1},
+                 AnimationRate->0.5242880000000004,
+                 AnimationRunTime->58.347679138183594`,
+                 AnimationRunning->True,
+                 AnimationTimeIndex->4.941917419433636,
+                 
+                 AppearanceElements->{
+                  "ProgressSlider", "PlayPauseButton", "FasterSlowerButtons", 
+                   "DirectionButton"},
+                 AutoAction->False,
+                 DisplayAllSteps->True]}
+              },
+              AutoDelete->False,
+              
+              GridBoxAlignment->{
+               "Columns" -> {Right, {Left}}, "Rows" -> {{Baseline}}},
+              
+              GridBoxItemSize->{
+               "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+             "ListAnimateLabel",
+             StripOnInput->False],
+            {"ControlArea", Top}],
+           Alignment->{Automatic, Inherited},
+           StripOnInput->False],
+          Background->None,
+          StripOnInput->False]},
+        {
+         ItemBox[
+          TagBox[
+           StyleBox[
+            PaneBox[
+             TagBox[
+              PaneSelectorBox[{1->
+               TemplateBox[{
+                 GraphicsBox[{
+                   EdgeForm[
+                    Thickness[Large]], 
+                   RGBColor[0.87, 0.94, 1], 
+                   RectangleBox[{0, 4}], 
+                   RectangleBox[{0, 3}], 
+                   RectangleBox[{1, 3}], 
+                   RectangleBox[{0, 2}], 
+                   RectangleBox[{1, 2}], 
+                   RectangleBox[{2, 2}], 
+                   RectangleBox[{0, 1}], 
+                   RectangleBox[{1, 1}], 
+                   RectangleBox[{2, 1}], 
+                   RectangleBox[{3, 1}], 
+                   RectangleBox[{0, 0}], 
+                   RectangleBox[{1, 0}], 
+                   RectangleBox[{2, 0}], 
+                   RectangleBox[{3, 0}], 
+                   RectangleBox[{4, 0}]}], "\"1+2+3+4+5\""},
+                "Labeled",
+                DisplayFunction->(GridBox[{{
+                    TagBox[
+                    ItemBox[
+                    PaneBox[
+                    TagBox[#, "SkipImageSizeLevel"], 
+                    Alignment -> {Center, Baseline}, BaselinePosition -> 
+                    Baseline], DefaultBaseStyle -> "Labeled"], 
+                    "SkipImageSizeLevel"]}, {
+                    ItemBox[#2, DefaultBaseStyle -> "LabeledLabel"]}}, 
+                  GridBoxAlignment -> {
+                   "Columns" -> {{Center}}, "Rows" -> {{Center}}}, AutoDelete -> 
+                  False, GridBoxItemSize -> {
+                   "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                  BaselinePosition -> {1, 1}]& ),
+                InterpretationFunction->(RowBox[{"Labeled", "[", 
+                   RowBox[{#, ",", #2, ",", 
+                    RowBox[{"{", "}"}]}], "]"}]& )], 2->
+               TemplateBox[{
+                 GraphicsBox[{
+                   EdgeForm[
+                    Thickness[Large]], 
+                   RGBColor[0.87, 0.94, 1], 
+                   RectangleBox[{0, 4}], 
+                   RectangleBox[{0, 3}], 
+                   RectangleBox[{1, 3}], 
+                   RectangleBox[{0, 2}], 
+                   RectangleBox[{1, 2}], 
+                   RectangleBox[{2, 2}], 
+                   RectangleBox[{0, 1}], 
+                   RectangleBox[{1, 1}], 
+                   RectangleBox[{2, 1}], 
+                   RectangleBox[{3, 1}], 
+                   RectangleBox[{0, 0}], 
+                   RectangleBox[{1, 0}], 
+                   RectangleBox[{2, 0}], 
+                   RectangleBox[{3, 0}], 
+                   RectangleBox[{4, 0}], 
+                   RectangleBox[{5, 4}], 
+                   RectangleBox[{5, 3}], 
+                   RectangleBox[{6, 3}], 
+                   RectangleBox[{5, 2}], 
+                   RectangleBox[{6, 2}], 
+                   RectangleBox[{7, 2}], 
+                   RectangleBox[{5, 1}], 
+                   RectangleBox[{6, 1}], 
+                   RectangleBox[{7, 1}], 
+                   RectangleBox[{8, 1}], 
+                   RectangleBox[{5, 0}], 
+                   RectangleBox[{6, 0}], 
+                   RectangleBox[{7, 0}], 
+                   RectangleBox[{8, 0}], 
+                   RectangleBox[{9, 0}]}], "\"2*(1+2+3+4+5)\""},
+                "Labeled",
+                DisplayFunction->(GridBox[{{
+                    TagBox[
+                    ItemBox[
+                    PaneBox[
+                    TagBox[#, "SkipImageSizeLevel"], 
+                    Alignment -> {Center, Baseline}, BaselinePosition -> 
+                    Baseline], DefaultBaseStyle -> "Labeled"], 
+                    "SkipImageSizeLevel"]}, {
+                    ItemBox[#2, DefaultBaseStyle -> "LabeledLabel"]}}, 
+                  GridBoxAlignment -> {
+                   "Columns" -> {{Center}}, "Rows" -> {{Center}}}, AutoDelete -> 
+                  False, GridBoxItemSize -> {
+                   "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                  BaselinePosition -> {1, 1}]& ),
+                InterpretationFunction->(RowBox[{"Labeled", "[", 
+                   RowBox[{#, ",", #2, ",", 
+                    RowBox[{"{", "}"}]}], "]"}]& )], 3->
+               TemplateBox[{
+                 GraphicsBox[{
+                   EdgeForm[
+                    Thickness[Large]], 
+                   RGBColor[0.87, 0.94, 1], 
+                   RectangleBox[{0, 4}], 
+                   RectangleBox[{0, 3}], 
+                   RectangleBox[{1, 3}], 
+                   RectangleBox[{0, 2}], 
+                   RectangleBox[{1, 2}], 
+                   RectangleBox[{2, 2}], 
+                   RectangleBox[{0, 1}], 
+                   RectangleBox[{1, 1}], 
+                   RectangleBox[{2, 1}], 
+                   RectangleBox[{3, 1}], 
+                   RectangleBox[{0, 0}], 
+                   RectangleBox[{1, 0}], 
+                   RectangleBox[{2, 0}], 
+                   RectangleBox[{3, 0}], 
+                   RectangleBox[{4, 0}], 
+                   RGBColor[1, 0, 0], 
+                   RectangleBox[{5, 4}], 
+                   RectangleBox[{5, 3}], 
+                   RectangleBox[{6, 3}], 
+                   RectangleBox[{5, 2}], 
+                   RectangleBox[{6, 2}], 
+                   RectangleBox[{7, 2}], 
+                   RectangleBox[{5, 1}], 
+                   RectangleBox[{6, 1}], 
+                   RectangleBox[{7, 1}], 
+                   RectangleBox[{8, 1}], 
+                   RectangleBox[{5, 0}], 
+                   RectangleBox[{6, 0}], 
+                   RectangleBox[{7, 0}], 
+                   RectangleBox[{8, 0}], 
+                   RectangleBox[{9, 0}]}], "\"2*(1+2+3+4+5)\""},
+                "Labeled",
+                DisplayFunction->(GridBox[{{
+                    TagBox[
+                    ItemBox[
+                    PaneBox[
+                    TagBox[#, "SkipImageSizeLevel"], 
+                    Alignment -> {Center, Baseline}, BaselinePosition -> 
+                    Baseline], DefaultBaseStyle -> "Labeled"], 
+                    "SkipImageSizeLevel"]}, {
+                    ItemBox[#2, DefaultBaseStyle -> "LabeledLabel"]}}, 
+                  GridBoxAlignment -> {
+                   "Columns" -> {{Center}}, "Rows" -> {{Center}}}, AutoDelete -> 
+                  False, GridBoxItemSize -> {
+                   "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                  BaselinePosition -> {1, 1}]& ),
+                InterpretationFunction->(RowBox[{"Labeled", "[", 
+                   RowBox[{#, ",", #2, ",", 
+                    RowBox[{"{", "}"}]}], "]"}]& )], 4->
+               TemplateBox[{
+                 GraphicsBox[{
+                   EdgeForm[
+                    Thickness[Large]], 
+                   RGBColor[0.87, 0.94, 1], 
+                   RectangleBox[{0, 4}], 
+                   RectangleBox[{0, 3}], 
+                   RectangleBox[{1, 3}], 
+                   RectangleBox[{0, 2}], 
+                   RectangleBox[{1, 2}], 
+                   RectangleBox[{2, 2}], 
+                   RectangleBox[{0, 1}], 
+                   RectangleBox[{1, 1}], 
+                   RectangleBox[{2, 1}], 
+                   RectangleBox[{3, 1}], 
+                   RectangleBox[{0, 0}], 
+                   RectangleBox[{1, 0}], 
+                   RectangleBox[{2, 0}], 
+                   RectangleBox[{3, 0}], 
+                   RectangleBox[{4, 0}], 
+                   RGBColor[1, 0, 0], 
+                   RectangleBox[{5, 4}], 
+                   RectangleBox[{6, 4}], 
+                   RectangleBox[{7, 4}], 
+                   RectangleBox[{8, 4}], 
+                   RectangleBox[{9, 4}], 
+                   RectangleBox[{6, 3}], 
+                   RectangleBox[{7, 3}], 
+                   RectangleBox[{8, 3}], 
+                   RectangleBox[{9, 3}], 
+                   RectangleBox[{7, 2}], 
+                   RectangleBox[{8, 2}], 
+                   RectangleBox[{9, 2}], 
+                   RectangleBox[{8, 1}], 
+                   RectangleBox[{9, 1}], 
+                   RectangleBox[{9, 0}]}], "\"2*(1+2+3+4+5)\""},
+                "Labeled",
+                DisplayFunction->(GridBox[{{
+                    TagBox[
+                    ItemBox[
+                    PaneBox[
+                    TagBox[#, "SkipImageSizeLevel"], 
+                    Alignment -> {Center, Baseline}, BaselinePosition -> 
+                    Baseline], DefaultBaseStyle -> "Labeled"], 
+                    "SkipImageSizeLevel"]}, {
+                    ItemBox[#2, DefaultBaseStyle -> "LabeledLabel"]}}, 
+                  GridBoxAlignment -> {
+                   "Columns" -> {{Center}}, "Rows" -> {{Center}}}, AutoDelete -> 
+                  False, GridBoxItemSize -> {
+                   "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                  BaselinePosition -> {1, 1}]& ),
+                InterpretationFunction->(RowBox[{"Labeled", "[", 
+                   RowBox[{#, ",", #2, ",", 
+                    RowBox[{"{", "}"}]}], "]"}]& )], 5->
+               TemplateBox[{
+                 GraphicsBox[{
+                   EdgeForm[
+                    Thickness[Large]], 
+                   RGBColor[0.87, 0.94, 1], 
+                   RectangleBox[{0, 4}], 
+                   RectangleBox[{0, 3}], 
+                   RectangleBox[{1, 3}], 
+                   RectangleBox[{0, 2}], 
+                   RectangleBox[{1, 2}], 
+                   RectangleBox[{2, 2}], 
+                   RectangleBox[{0, 1}], 
+                   RectangleBox[{1, 1}], 
+                   RectangleBox[{2, 1}], 
+                   RectangleBox[{3, 1}], 
+                   RectangleBox[{0, 0}], 
+                   RectangleBox[{1, 0}], 
+                   RectangleBox[{2, 0}], 
+                   RectangleBox[{3, 0}], 
+                   RectangleBox[{4, 0}], 
+                   RGBColor[1, 0, 0], 
+                   RectangleBox[{1, 4}], 
+                   RectangleBox[{2, 4}], 
+                   RectangleBox[{3, 4}], 
+                   RectangleBox[{4, 4}], 
+                   RectangleBox[{5, 4}], 
+                   RectangleBox[{2, 3}], 
+                   RectangleBox[{3, 3}], 
+                   RectangleBox[{4, 3}], 
+                   RectangleBox[{5, 3}], 
+                   RectangleBox[{3, 2}], 
+                   RectangleBox[{4, 2}], 
+                   RectangleBox[{5, 2}], 
+                   RectangleBox[{4, 1}], 
+                   RectangleBox[{5, 1}], 
+                   RectangleBox[{5, 0}]}], "\"5*(5+1)\""},
+                "Labeled",
+                DisplayFunction->(GridBox[{{
+                    TagBox[
+                    ItemBox[
+                    PaneBox[
+                    TagBox[#, "SkipImageSizeLevel"], 
+                    Alignment -> {Center, Baseline}, BaselinePosition -> 
+                    Baseline], DefaultBaseStyle -> "Labeled"], 
+                    "SkipImageSizeLevel"]}, {
+                    ItemBox[#2, DefaultBaseStyle -> "LabeledLabel"]}}, 
+                  GridBoxAlignment -> {
+                   "Columns" -> {{Center}}, "Rows" -> {{Center}}}, AutoDelete -> 
+                  False, GridBoxItemSize -> {
+                   "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                  BaselinePosition -> {1, 1}]& ),
+                InterpretationFunction->(RowBox[{"Labeled", "[", 
+                   RowBox[{#, ",", #2, ",", 
+                    RowBox[{"{", "}"}]}], "]"}]& )], 6->
+               TemplateBox[{
+                 GraphicsBox[{
+                   EdgeForm[
+                    Thickness[Large]], 
+                   RGBColor[0.87, 0.94, 1], 
+                   RectangleBox[{0, 4}], 
+                   RectangleBox[{1, 4}], 
+                   RectangleBox[{2, 4}], 
+                   RectangleBox[{3, 4}], 
+                   RectangleBox[{4, 4}], 
+                   RectangleBox[{5, 4}], 
+                   RectangleBox[{0, 3}], 
+                   RectangleBox[{1, 3}], 
+                   RectangleBox[{2, 3}], 
+                   RectangleBox[{3, 3}], 
+                   RectangleBox[{4, 3}], 
+                   RectangleBox[{5, 3}], 
+                   RectangleBox[{0, 2}], 
+                   RectangleBox[{1, 2}], 
+                   RectangleBox[{2, 2}], 
+                   RectangleBox[{3, 2}], 
+                   RectangleBox[{4, 2}], 
+                   RectangleBox[{5, 2}], 
+                   RectangleBox[{0, 1}], 
+                   RectangleBox[{1, 1}], 
+                   RectangleBox[{2, 1}], 
+                   RectangleBox[{3, 1}], 
+                   RectangleBox[{4, 1}], 
+                   RectangleBox[{5, 1}], 
+                   RectangleBox[{0, 0}], 
+                   RectangleBox[{1, 0}], 
+                   RectangleBox[{2, 0}], 
+                   RectangleBox[{3, 0}], 
+                   RectangleBox[{4, 0}], 
+                   RectangleBox[{5, 0}]}], "\"2*(1+2+3+4+5)=5*(5+1)\""},
+                "Labeled",
+                DisplayFunction->(GridBox[{{
+                    TagBox[
+                    ItemBox[
+                    PaneBox[
+                    TagBox[#, "SkipImageSizeLevel"], 
+                    Alignment -> {Center, Baseline}, BaselinePosition -> 
+                    Baseline], DefaultBaseStyle -> "Labeled"], 
+                    "SkipImageSizeLevel"]}, {
+                    ItemBox[#2, DefaultBaseStyle -> "LabeledLabel"]}}, 
+                  GridBoxAlignment -> {
+                   "Columns" -> {{Center}}, "Rows" -> {{Center}}}, AutoDelete -> 
+                  False, GridBoxItemSize -> {
+                   "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                  BaselinePosition -> {1, 1}]& ),
+                InterpretationFunction->(RowBox[{"Labeled", "[", 
+                   RowBox[{#, ",", #2, ",", 
+                    RowBox[{"{", "}"}]}], "]"}]& )], 7->
+               TemplateBox[{
+                 GraphicsBox[{
+                   EdgeForm[
+                    Thickness[Large]], 
+                   RGBColor[0.87, 0.94, 1], 
+                   RectangleBox[{0, 4}], 
+                   RectangleBox[{0, 3}], 
+                   RectangleBox[{1, 3}], 
+                   RectangleBox[{0, 2}], 
+                   RectangleBox[{1, 2}], 
+                   RectangleBox[{2, 2}], 
+                   RectangleBox[{0, 1}], 
+                   RectangleBox[{1, 1}], 
+                   RectangleBox[{2, 1}], 
+                   RectangleBox[{3, 1}], 
+                   RectangleBox[{0, 0}], 
+                   RectangleBox[{1, 0}], 
+                   RectangleBox[{2, 0}], 
+                   RectangleBox[{3, 0}], 
+                   RectangleBox[{4, 0}]}], "\"1+2+3+4+5=5*(5+1)/2\""},
+                "Labeled",
+                DisplayFunction->(GridBox[{{
+                    TagBox[
+                    ItemBox[
+                    PaneBox[
+                    TagBox[#, "SkipImageSizeLevel"], 
+                    Alignment -> {Center, Baseline}, BaselinePosition -> 
+                    Baseline], DefaultBaseStyle -> "Labeled"], 
+                    "SkipImageSizeLevel"]}, {
+                    ItemBox[#2, DefaultBaseStyle -> "LabeledLabel"]}}, 
+                  GridBoxAlignment -> {
+                   "Columns" -> {{Center}}, "Rows" -> {{Center}}}, AutoDelete -> 
+                  False, GridBoxItemSize -> {
+                   "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                  BaselinePosition -> {1, 1}]& ),
+                InterpretationFunction->(RowBox[{"Labeled", "[", 
+                   RowBox[{#, ",", #2, ",", 
+                    RowBox[{"{", "}"}]}], "]"}]& )], 8->
+               TemplateBox[{
+                 GraphicsBox[{
+                   EdgeForm[
+                    Thickness[Large]], 
+                   RGBColor[0.87, 0.94, 1], 
+                   RectangleBox[{0, 4}], 
+                   RectangleBox[{0, 3}], 
+                   RectangleBox[{1, 3}], 
+                   RectangleBox[{0, 2}], 
+                   RectangleBox[{1, 2}], 
+                   RectangleBox[{2, 2}], 
+                   RectangleBox[{0, 1}], 
+                   RectangleBox[{1, 1}], 
+                   RectangleBox[{2, 1}], 
+                   RectangleBox[{3, 1}], 
+                   RectangleBox[{0, 0}], 
+                   RectangleBox[{1, 0}], 
+                   RectangleBox[{2, 0}], 
+                   RectangleBox[{3, 0}], 
+                   RectangleBox[{4, 0}]}], "\"1+2+3+4+5=5*(5+1)/2=15\""},
+                "Labeled",
+                DisplayFunction->(GridBox[{{
+                    TagBox[
+                    ItemBox[
+                    PaneBox[
+                    TagBox[#, "SkipImageSizeLevel"], 
+                    Alignment -> {Center, Baseline}, BaselinePosition -> 
+                    Baseline], DefaultBaseStyle -> "Labeled"], 
+                    "SkipImageSizeLevel"]}, {
+                    ItemBox[#2, DefaultBaseStyle -> "LabeledLabel"]}}, 
+                  GridBoxAlignment -> {
+                   "Columns" -> {{Center}}, "Rows" -> {{Center}}}, AutoDelete -> 
+                  False, GridBoxItemSize -> {
+                   "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                  BaselinePosition -> {1, 1}]& ),
+                InterpretationFunction->(RowBox[{"Labeled", "[", 
+                   RowBox[{#, ",", #2, ",", 
+                    RowBox[{"{", "}"}]}], "]"}]& )]}, 
+               Dynamic[$CellContext`i29$$],
+               Alignment->Automatic,
+               BaseStyle->"ListAnimateCore",
+               ImageSize->All,
+               TransitionDirection->Horizontal,
+               TransitionDuration->0.5,
+               TransitionEffect->Automatic],
+              Identity,
+              Editable->True,
+              Selectable->True],
+             ImageMargins->10],
+            Deployed->False,
+            StripOnInput->False,
+            ScriptLevel->0,
+            GraphicsBoxOptions->{PreserveImageOptions->True},
+            Graphics3DBoxOptions->{PreserveImageOptions->True}],
+           Identity,
+           Editable->False,
+           Selectable->False],
+          Alignment->{Left, Center},
+          Background->GrayLevel[1],
+          Frame->1,
+          FrameStyle->GrayLevel[0, 0.2],
+          ItemSize->Automatic,
+          StripOnInput->False]}
+       },
+       AutoDelete->False,
+       GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Top}}},
+       GridBoxDividers->{"Columns" -> {{False}}, "Rows" -> {{False}}},
+       GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+       
+       GridBoxSpacings->{"Columns" -> {
+           Offset[0.7], {
+            Offset[0.5599999999999999]}, 
+           Offset[0.7]}, "Rows" -> {
+           Offset[0.4], {
+            Offset[0.8]}, 
+           Offset[0.4]}}],
+      DefaultBaseStyle->{},
+      FrameMargins->{{5, 5}, {5, 5}}],
+     BaselinePosition->Automatic,
+     ImageMargins->0],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "ListAnimate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{
+  3.935851099930859*^9, {3.93585147854429*^9, 3.935851496688805*^9}, 
+   3.935851727627706*^9, 3.935851803749775*^9},
+ CellLabel->"Out[59]=",ExpressionUUID->"380e2d7f-2e7a-4d4b-a6ac-c76c82d9e54d"]
+}, Open  ]]
+},
+WindowSize->{808, 662},
+WindowMargins->{{258, Automatic}, {Automatic, 21}},
+FrontEndVersion->"14.0 for Mac OS X ARM (64-bit) (December 12, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"ade2bfb5-ee64-4cb1-9979-54aaf7d70bea"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 447, 12, 30, "Input",ExpressionUUID->"ed0edec6-eb3a-43d0-908d-0deb7aa51c72"],
+Cell[CellGroupData[{
+Cell[1030, 36, 405, 9, 30, "Input",ExpressionUUID->"c0629a95-ba1f-4fec-912b-fc6dc9588341"],
+Cell[1438, 47, 269, 5, 376, "Output",ExpressionUUID->"41b2a643-5c5d-4685-8690-beaa02030dc2"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1744, 57, 549, 13, 30, "Input",ExpressionUUID->"23d1e5b7-2917-4c7e-99f8-92b885557a72"],
+Cell[2296, 72, 289, 5, 204, "Output",ExpressionUUID->"1f362eee-608f-4f6a-9f5f-a1ee9b8a25b4"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2622, 82, 318, 7, 30, "Input",ExpressionUUID->"8bc52cfb-c330-46a6-ac38-259dd579df89"],
+Cell[2943, 91, 248, 4, 34, "Output",ExpressionUUID->"b85d397f-3a28-4c1b-b869-2cebe59c9c96"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3228, 100, 581, 15, 30, "Input",ExpressionUUID->"4d29b441-e116-4e31-bd84-84891df9f2cc"],
+Cell[3812, 117, 335, 6, 101, "Output",ExpressionUUID->"eba293c9-6bc7-441b-9375-bd05d63ae532"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4184, 128, 695, 18, 52, "Input",ExpressionUUID->"a0267c8f-5bc6-4bfe-879c-affa80f7b0f3"],
+Cell[4882, 148, 941, 14, 319, "Output",ExpressionUUID->"44b8f910-b94a-444d-9073-0f04a0461a98"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5860, 167, 824, 21, 73, "Input",ExpressionUUID->"cdd0e256-3ec0-4b8c-ab7b-9343defd00ac"],
+Cell[6687, 190, 665, 11, 376, "Output",ExpressionUUID->"7df70601-4e6a-4df3-8e5c-5a4c6a75b379"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7389, 206, 536, 14, 30, "Input",ExpressionUUID->"3b3b6348-c167-4538-94f1-fdfba95a263e"],
+Cell[7928, 222, 1856, 57, 105, "Output",ExpressionUUID->"a047567d-f84e-4f03-bbb9-00211660fc46"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[9821, 284, 723, 19, 73, "Input",ExpressionUUID->"705db530-0977-42e6-a5fa-519031c27b34"],
+Cell[10547, 305, 567, 9, 376, "Output",ExpressionUUID->"29a8f4f8-77a4-4342-b543-f0af4543a6a6"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[11151, 319, 1104, 30, 94, "Input",ExpressionUUID->"2f713b8a-f310-46b6-9918-47b601907fd2"],
+Cell[12258, 351, 917, 14, 204, "Output",ExpressionUUID->"e4306dd7-7164-48b0-bfb1-be465ef03abe"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[13212, 370, 1118, 30, 94, "Input",ExpressionUUID->"fc02c341-c58b-48b3-999c-f3d9880241bc"],
+Cell[14333, 402, 971, 15, 204, "Output",ExpressionUUID->"06eff95d-f85b-4617-a124-6edead92b33e"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[15341, 422, 719, 19, 52, "Input",ExpressionUUID->"b2f57f1b-ba3c-4f7a-a774-2385408a3265"],
+Cell[16063, 443, 616, 10, 376, "Output",ExpressionUUID->"6411f780-aaaf-4e42-9b75-5ef9fd67c1ac"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[16716, 458, 1116, 30, 94, "Input",ExpressionUUID->"413c8de7-5fb3-456a-849c-1bb49430d595"],
+Cell[17835, 490, 947, 15, 204, "Output",ExpressionUUID->"d4e8bace-8b0a-41e7-86c1-aa58fb472d4a"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[18819, 510, 717, 19, 52, "Input",ExpressionUUID->"ee91f5b9-866c-49ea-b7e6-60b33b898350"],
+Cell[19539, 531, 589, 9, 376, "Output",ExpressionUUID->"8ea79067-a642-412e-aa9c-a7c563e35712"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[20165, 545, 1144, 31, 94, "Input",ExpressionUUID->"b52e58ea-955b-4d4a-afd0-55590eaffbb3"],
+Cell[21312, 578, 968, 15, 319, "Output",ExpressionUUID->"f0d1300d-e02b-4e36-bda3-bad3d2564d6f"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[22317, 598, 8019, 204, 808, "Input",ExpressionUUID->"a6a01807-7754-408e-a154-f8e0369f0e3d"],
+Cell[30339, 804, 21324, 489, 469, "Output",ExpressionUUID->"380e2d7f-2e7a-4d4b-a6ac-c76c82d9e54d"]
+}, Open  ]]
+}
+]
+*)
+
